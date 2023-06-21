@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+			table,td,th
+			{
+				border:solid 1px black;
+				border-collapse: collapse;
+			} 
+			</style>
+</head>
+<body>
+		<!--
+			<table>: it is used to create a table. a table contains rows. rows are created using 		the  <tr> tag.
+			rows contains cells, cells are created using the <td> tag. the content of <td>is by 		default left alligned.
+			first rows contains headers instead of data.column header are created using the <th> 		tag.the content of <th> is by default bold and centerr alligned.
+			the <th>/<th> can contains simple text as well as any html  element also.
+			by default table borders are  thenot visible.
+			we use css for applying borders ony table and th and td.
+			<tr> cannot have border.
+			use following code inside the <head>
+			<style>
+			table,td,th
+			{
+				border:solid 1px black;
+			} 
+			</style>
+			by default borders of both table and td/th are visible ,we merge them using the border-collapse property
+
+			<caption> to give caption to the table we use <caption> tag inside the  <table> 
+		-->
+</body>
+		<table>
+			<caption>Student Details</caption>
+			<tr>
+				<th>roll number</th>
+				<th>name</th>
+				<th>age</th>
+			</tr>
+			<tr>
+				<th>101</th>
+				<th>shubham</th>
+				<th>20</th>
+			</tr>
+			<tr>
+				<th>102</th>
+				<th>gagan</th>
+				<th>21</th>
+			</tr>
+			<tr>
+				<th>103</th>
+				<th>nilesh</th>
+				<th>20</th>
+			</tr>
+			<tr>
+				<th>104</th>
+				<th>ujjawal</th>
+				<th>20</th>
+			</tr>
+		</table>
+</html>
